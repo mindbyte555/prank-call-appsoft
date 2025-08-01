@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><!--<navigation xmlns:android="http://schemas.android.com/apk/res/android"-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.baseapp.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        
+
+        <action
+            android:id="@+id/action_mainFragment_to_ringingFragment"
+            app:destination="@id/ringingFragment">
+
+        </action>
+        <action
+            android:id="@+id/action_mainFragment_to_scedhuleFragment"
+            app:destination="@id/scedhuleFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_videoRingingFragment"
+            app:destination="@id/videoRingingFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customFragment"
+            app:destination="@id/customFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customVideoRingingFragment"
+            app:destination="@id/customVideoRingingFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customCallRingingFragment"
+            app:destination="@id/customCallRingingFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ringingFragment"
+        android:name="com.example.baseapp.fragments.RingingFragment"
+        android:label="fragment_ringing"
+        tools:layout="@layout/fragment_ringing">
+
+
+        <action
+            android:id="@+id/action_ringingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_ringingFragment_to_audioPlayerFragment"
+            app:destination="@id/audioPlayerFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/audioPlayerFragment"
+        android:name="com.example.baseapp.fragments.AudioPlayerFragment"
+        android:label="AudioPlayerFragment"
+        tools:layout="@layout/fragment_audio_player">
+        <argument
+            android:name="profilenamerimg1"
+            app:argType="string" />
+        <argument
+            android:name="profiilenorimg1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_audioPlayerFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scedhuleFragment"
+        android:name="com.example.baseapp.fragments.ScedhuleFragment"
+        android:label="fragment_scedhule"
+        tools:layout="@layout/fragment_scedhule" >
+
+        <argument
+            android:name="audioprofile"
+            app:argType="string" />
+        <argument
+            android:name="audioprofilevoice"
+            app:argType="integer" />
+        <argument
+            android:name="audioprofilenumber"
+            app:argType="long" />
+
+        <action
+            android:id="@+id/action_scedhuleFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoRingingFragment"
+        android:name="com.example.baseapp.fragments.VideoCall.VideoRingingFragment"
+        android:label="fragment_video_ringing"
+        tools:layout="@layout/fragment_video_ringing" >
+        <action
+            android:id="@+id/action_videoRingingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_videoRingingFragment_to_videoPlayerFragment"
+            app:destination="@id/videoPlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoPlayerFragment"
+        android:name="com.example.baseapp.fragments.VideoCall.VideoPlayerFragment"
+        android:label="fragment_video_player"
+        tools:layout="@layout/fragment_video_player" >
+        <argument
+            android:name="videoprofile"
+            app:argType="string" />
+        <argument
+            android:name="videoprofilevoice"
+            app:argType="integer" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.baseapp.fragments.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <argument
+            android:name="chatprofile"
+            app:argType="string" />
+        <argument
+            android:name="chatpic"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_chatFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customFragment"
+        android:name="com.example.baseapp.fragments.CustomFragment.CustomFragment"
+        android:label="fragment_custom"
+        tools:layout="@layout/fragment_custom" >
+
+        <action
+            android:id="@+id/action_customFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_customFragment_to_scedhuleFragment"
+            app:destination="@id/scedhuleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customVideoRingingFragment"
+        android:name="com.example.baseapp.fragments.CustomFragment.customVideoFragment.CustomVideoRingingFragment"
+        android:label="fragment_custom_video_ringing"
+        tools:layout="@layout/fragment_custom_video_ringing" >
+        <action
+            android:id="@+id/action_customVideoRingingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_customVideoRingingFragment_to_customVideoplayerFragment"
+            app:destination="@id/customVideoplayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customVideoplayerFragment"
+        android:name="com.example.baseapp.fragments.CustomFragment.customVideoFragment.CustomVideoplayerFragment"
+        android:label="fragment_custom_videoplayer"
+        tools:layout="@layout/fragment_custom_videoplayer" >
+        <argument
+            android:name="customvideoprofile"
+            app:argType="string" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/customCallRingingFragment"
+        android:name="com.example.baseapp.fragments.CustomFragment.customCallFragment.CustomCallRingingFragment"
+        android:label="fragment_custom_call_ringing"
+        tools:layout="@layout/fragment_custom_call_ringing" >
+        <action
+            android:id="@+id/action_customCallRingingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_customCallRingingFragment_to_customCallPlayerFragment"
+            app:destination="@id/customCallPlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customCallPlayerFragment"
+        android:name="com.example.baseapp.fragments.CustomFragment.customCallFragment.CustomCallPlayerFragment"
+        android:label="fragment_custom_call_player"
+        tools:layout="@layout/fragment_custom_call_player" >
+        <argument
+            android:name="customcallprofile"
+            app:argType="string" />
+        <argument
+            android:name="customcalluri"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.baseapp.fragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+
+</navigation>

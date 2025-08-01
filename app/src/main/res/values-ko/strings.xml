@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name" translatable="false">Prank Call &amp;  Fake Chat</string>
+    <string name="splashtext001">장난 전화</string>
+    <string name="splashtext002">전화를 통해 사람들을 놀라게 하세요</string>
+    <string name="splashbtn_txt">시작하기</string>
+    //언어
+    <string name="Lang_mainhead">언어 선택</string>
+    /////권한
+    <string name="permissionmaintext">권한 요청</string>
+    <string name="permissionmainheading">권한</string>
+    <string name="permissionsecheading">가짜 통화는 최적의 기능을 위해 다음 권한이 필요합니다:</string>
+    <string name="permissioncardheading">접근 허용</string>
+    <string name="permissioncardsecheading">위젯 앱이 작동하려면 “모든 파일을 관리할 수 있는 접근 허용” 권한을 활성화하세요. 계속하려면 버튼을 누르세요</string>
+    <string name="permissionbutton">권한 허용</string>
+    <string name="permission_consent">당신의 개인정보는 우리의 최우선 과제입니다. 제3자는 절대 귀하의 데이터를 접근하지 않도록 보장합니다. 이 권한들은 단지 앱 사용 경험을 향상시키기 위한 것입니다.\n\n\'동의하고 계속하기\'를 누름으로써, 귀하는 우리의 약관에 동의하며 개인정보 보호에 대한 우리의 헌신을 인정합니다.</string>
+    <string name="agree_continue">동의</string>
+    <string name="addtohomemainheading">사용 방법</string>
+    <string name="continuenbutton">다음</string>
+    <string name="endbutton">끝내기</string>
+    <string name="skipnbutton">건너뛰기</string>
+    <string name="savebutton">저장</string>
+    <string name="modebutton">모드</string>
+    <string name="rate_us">평가하기</string>
+    <string name="share">공유하기</string>
+    <string name="home">홈</string>
+    <string name="priv"><u>개인정보 보호정책</u></string>
+    <string name="lang">언어</string>
+    <string name="consent">동의 설정</string>
+    <string name="setting">설정</string>
+    <string name="ringtone">벨소리</string>
+    <string name="themes">발신자 테마</string>
+    <string name="pause">일시정지</string>
+    <string name="hold">대기</string>
+    <string name="mute">음소거</string>
+    <string name="unmute">음소거 해제</string>
+    <string name="speaker">스피커</string>
+    <string name="mike">마이크</string>
+    <string name="call">통화</string>
+    <string name="end_call">통화 종료</string>
+    <string name="theme">테마</string>
+    <string name="scedhule">일정</string>
+    <string name="scedhule_btn">통화 예약</string>
+    <string name="call_me">지금 전화</string>
+    <string name="call_later">나중에 전화</string>
+    <string name="done">적용</string>
+    <string name="Stim">통화 시뮬레이션</string>
+    <string name="fake_chat">가짜 채팅</string>
+    <string name="seeall">모두 보기</string>
+    <string name="fake_call">가짜 영상 및 음성 통화</string>
+    <string name="addcall">통화 추가</string>
+    <string name="calltheme">발신자 테마</string>
+    <string name="applang">앱 언어</string>
+    <string name="splash_sechead">장난입니다!!</string>
+    <string name="splash_mainhead">오디오 비디오 채팅\n많은 재미</string>
+    <string name="splash_lasthead">상상의 친구를 만들어서\n개인적인 순간을 보호하세요</string>
+    <string name="splashpriv"><![CDATA[<u>개인정보 보호정책</u>]]></string>
+    <string name="we_require_permissions_to_function_properly">원활한 기능을 위해 필수 권한을 요청드립니다.</string>
+    <string name="camerapermi"><font color="#FF000000"><big><b>카메라:</b></big></font> <big>실감나는 통화 화면을 만들기 위한 카메라 접근 권한</big></string>
+    <string name="overlaypermi"><font color="#FF000000"><big><b>오버레이:</b></big></font><big> 다른 앱 위에 가짜 통화 인터페이스를 표시하기 위한 오버레이 권한</big></string>
+    <string name="mediapermi"><font color="#FF000000"><big><b>미디어 저장소:</b></big></font> <big>가짜 통화를 위해 사진, 미디어 및 파일에 접근</big></string>
+    <string name="allow">계속</string>
+    <string name="buy_prem">프리미엄 구매</string>
+    <string name="upgd_prem">프리미엄으로 업그레이드하고\n광고 없는 장난을 즐기세요.</string>
+    <string name="ads_free">광고 없는 경험</string>
+    <string name="enjoy_un">무제한 통화 즐기기</string>
+    <string name="serv_sup">24/7 서비스 지원</string>
+    <string name="unlock_pro">프로 버전 미리 해제</string>
+    <string name="select_plan">요금제 선택</string>
+    <string name="one_mnth">1개월</string>
+    <string name="six_mnth">6개월</string>
+    <string name="twelve_mnth">12개월</string>
+    <string name="recom">추천</string>
+    <string name="main_inapp">이 구독은 자동 갱신되며\n선택한 기간이 끝나면 다시 활성화됩니다</string>
+    <string name="sec_inapp">안심하고 전환하세요.</string>
+    <string name="cancel_any">언제든 취소할 수 있습니다.</string>
+    <string name="sub">지금 구독하기</string>
+    <string name="terms">서비스 약관</string>
+    <string name="mnth">/월</string>
+    <string name="mnths">/6개월</string>
+    <string name="yr">/연</string>
+    <string name="next">다음</string>
+    <string name="app_up">앱 업데이트</string>
+    <string name="camera">카메라</string>
+    <string name="camera_sub">실제적인 통화 화면을 만들기 위한 카메라 접근 권한</string>
+    <string name="write">설정 쓰기</string>
+    <string name="write_sub">앱 경험을 향상시키기 위해, 특정 시스템 설정을 수정할 수 있는 권한이 필요합니다.</string>
+    <string name="overlay">오버레이</string>
+    <string name="overlay_sub">가짜 통화 인터페이스를 위해 다른 앱 위에 표시합니다.</string>
+    <string name="cancel_notice"><b>참고:</b> 이 구독은 자동 갱신되며 즉시 청구됩니다. 이 구독은 선택한 기간이 끝나면 재활성화되며 언제든지 취소할 수 있습니다.</string>
+    <string name="general">일반</string>
+    <string name="other">기타</string>
+    <string name="voice_call">음성 통화</string>
+    <string name="video_call">영상 통화</string>
+    <string name="schedule_call">통화 일정</string>
+    <string name="fake_call1">가짜 통화</string>
+    <string name="audio_fake_call">가짜 음성 통화</string>
+    <string name="video_fake_call">가짜 영상 통화</string>
+    <string name="audio_call">음성 통화</string>
+    <string name="main_features">주요 기능</string>
+    <string name="switch_with_peace_of_mind">마음 편히 전환하세요.</string>
+    <string name="enjoy_ads_free">광고 없이 즐기세요</string>
+    <string name="_24_7_service_support">24/7 서비스 지원</string>
+    <string name="more_calling_themes">더 많은 통화 테마</string>
+    <string name="premium_plan">프리미엄 요금제</string>
+    <string name="premuim">프리미엄</string>
+    <string name="basic">기본</string>
+    <string name="_1_week">1주</string>
+    <string name="_1_month">1개월</string>
+    <string name="_6_months">6개월</string>
+    <string name="recommended">추천</string>
+    <string name="check_for_updates">업데이트 확인</string> <!-- Korean (ko) -->
+
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="you_re_leaving_are_you_sure_you_want_nto_quit_app">떠나고 있습니다. 앱을 종료하시겠습니까?</string>
+    <string name="quit_app">앱 종료?</string>
+    <string name="enter_name">이름 입력</string>
+    <string name="enter_number">번호 입력</string>
+
+    <!-- Korean -->
+    <string name="apply">적용</string>
+    <string name="flip">뒤집기</string>
+    <string name="end">끝</string>
+
+    <string name="_10_seconds">10초</string>
+    <string name="_30_seconds">30초</string>
+    <string name="_1_minute">1분</string>
+    <string name="_5_minutes">5분</string>
+
+    <string name="seconds">10초</string>
+    <string name="please">잠시만 기다려주세요</string>
+    <string name="full_ad">전체 광고가 곧 로드됩니다</string>
+    <string name="reward_ad">보상형 광고</string>
+    <string name="reward">보상 남은 시간:</string>
+    <string name="get_prem">프리미엄 액세스 받기</string>
+    <string name="upgrade_now">지금 업그레이드</string>
+    <string name="no_internet">인터넷 연결 없음</string>
+    <string name="try_again">다시 시도하세요</string>
+
+</resources>

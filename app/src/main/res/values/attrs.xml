@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text_black" format="color"/>
+    <attr name="text_default" format="color"/>
+    <declare-styleable name="TemplateView">
+
+        <attr name="gnt_template_type" format="reference"/>
+
+    </declare-styleable>
+    <declare-styleable name="zAdContainerClStyleable">
+        <attr name="zBackgroundColor" format="reference"/>
+        <attr name="zCornerRadius" format="integer"/>
+        <attr name="zStrokeWidth" format="integer"/>
+        <attr name="zStrokeColor" format="reference"/>
+        <attr name="zLoaderContainer" format="reference"/>
+    </declare-styleable>
+</resources>

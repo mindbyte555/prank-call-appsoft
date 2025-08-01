@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name" translatable="false">Prank Call &amp; Fake Chat</string>
+    <string name="splashtext001">Chamada de Pegadinha</string>
+    <string name="splashtext002">Pegue as pessoas com chamadas</string>
+    <string name="splashbtn_txt">Começar</string>
+    <!-- Languages -->
+    <string name="Lang_mainhead">Selecionar Idioma</string>
+    <!-- Permission -->
+    <string name="permissionmaintext">Solicitação de Permissão</string>
+    <string name="permissionmainheading">Permissão</string>
+    <string name="permissionsecheading">Chamada Falsa requer as seguintes permissões para funcionalidade ideal:</string>
+    <string name="permissioncardheading">Permitir Acesso</string>
+    <string name="permissioncardsecheading">Por favor, ative a permissão “Permitir acesso para gerenciar todos os arquivos” para garantir que o aplicativo Widget funcione. Toque no botão para continuar</string>
+    <string name="permissionbutton">Permitir Permissão</string>
+    <string name="permission_consent">Sua privacidade é nossa principal prioridade. Garantimos que nenhum terceiro terá acesso aos seus dados. Essas permissões são solicitadas apenas para melhorar sua experiência no aplicativo.\n\nAo tocar em \'Concordar &amp; Continuar\', você aceita nossos termos e reconhece nossa dedicação à sua privacidade.</string>
+    <string name="agree_continue">Permitir</string>
+    <string name="addtohomemainheading">Como Usar</string>
+    <string name="continuenbutton">Próximo</string>
+    <string name="endbutton">Finalizar</string>
+    <string name="skipnbutton">Pular</string>
+    <string name="savebutton">Salvar</string>
+    <string name="modebutton">Modo</string>
+    <string name="rate_us">Avalie-nos</string>
+    <string name="share">Compartilhar</string>
+    <string name="home">Início</string>
+    <string name="priv"><u>Política de Privacidade</u></string>
+    <string name="lang">Idiomas</string>
+    <string name="consent">Configuração de Consentimento</string>
+    <string name="setting">Configurações</string>
+    <string name="ringtone">Toque</string>
+    <string name="themes">Tema do Chamador</string>
+    <string name="pause">Pausar</string>
+    <string name="hold">Segurar</string>
+    <string name="mute">Mudo</string>
+    <string name="unmute">Desmutar</string>
+    <string name="speaker">Viva-Voz</string>
+    <string name="mike">Microfone</string>
+    <string name="call">Chamada</string>
+    <string name="end_call">Encerrar Chamada</string>
+    <string name="theme">Temas</string>
+    <string name="scedhule">Agendar</string>
+    <string name="scedhule_btn">Agendar Chamada</string>
+    <string name="call_me">Ligue para Mim Agora</string>
+    <string name="call_later">Ligue para Mim Depois</string>
+    <string name="done">Aplicar</string>
+    <string name="Stim">Simular uma Chamada</string>
+    <string name="fake_chat">Chat Falso</string>
+    <string name="seeall">Ver Tudo</string>
+    <string name="fake_call">Chamada de Vídeo &amp; Áudio Falsa</string>
+    <string name="addcall">Adicionar Chamada</string>
+    <string name="calltheme">Tema do Chamador</string>
+    <string name="applang">Idioma do Aplicativo</string>
+    <string name="splash_sechead">É uma Pegadinha!!</string>
+    <string name="splash_mainhead">Chat de Vídeo e Áudio\nMuita Diversão</string>
+    <string name="splash_lasthead">Você pode ter um amigo imaginário para\nsalvar sua intimidade</string>
+    <string name="splashpriv"><![CDATA[<u>Política de Privacidade</u>]]></string>
+    <string name="we_require_permissions_to_function_properly">Para garantir o funcionamento perfeito, solicitamos gentilmente as permissões necessárias.</string>
+    <string name="camerapermi"><font color="#FF000000"><big><b>Câmera:</b></big></font> <big>Acesso à câmera para criar telas de chamadas realistas.</big></string>
+    <string name="overlaypermi"><font color="#FF000000"><big><b>Sobreposição:</b></big></font><big> Exibir sobre outros aplicativos para a interface da chamada falsa.</big></string>
+    <string name="mediapermi"><font color="#FF000000"><big><b>Armazenamento de Mídia:</b></big></font> <big>Acesso a fotos, mídias e arquivos para Chamada Falsa</big></string>
+    <string name="allow">Continuar</string>
+    <string name="buy_prem">Comprar Premium</string>
+    <string name="upgd_prem">Atualize para Premium e desbloqueie\npegadinhas com uma experiência sem anúncios.</string>
+    <string name="ads_free">Experiência Sem Anúncios</string>
+    <string name="enjoy_un">Aproveite Chamadas Ilimitadas</string>
+    <string name="serv_sup">Suporte 24/7</string>
+    <string name="unlock_pro">Desbloquear Pro Cedo</string>
+    <string name="select_plan">Selecione Seu Plano</string>
+    <string name="one_mnth">1 Mês</string>
+    <string name="six_mnth">6 Meses</string>
+    <string name="twelve_mnth">12 Meses</string>
+    <string name="recom">Recomendado</string>
+    <string name="main_inapp">Essas assinaturas são renováveis automaticamente e serão\nre-ativadas no final do período selecionado</string>
+    <string name="sec_inapp">Troque com tranquilidade.</string>
+    <string name="cancel_any">Cancele a qualquer momento.</string>
+    <string name="sub">ASSINAR AGORA</string>
+    <string name="terms">Termos de Serviço.</string>
+    <string name="mnth">/mês</string>
+    <string name="mnths">/6 meses</string>
+    <string name="yr">/ano</string>
+    <string name="next">Próximo</string>
+    <string name="app_up">Atualizar Aplicativo</string>
+    <string name="camera">Câmera</string>
+    <string name="camera_sub">Acesso à câmera para criar telas de chamada realistas</string>
+    <string name="write">Permissão de escrita</string>
+    <string name="write_sub">Para melhorar sua experiência no aplicativo, precisamos de permissão para modificar certas configurações do sistema.</string>
+    <string name="overlay">Sobreposição</string>
+    <string name="overlay_sub">Exibir sobre outros aplicativos para a interface de chamada falsa.</string>
+    <string name="cancel_notice"><b>Nota:</b> Estas assinaturas são renováveis automaticamente e serão cobradas instantaneamente. Estas assinaturas serão reativadas no final do período selecionado e podem ser canceladas a qualquer momento.</string>
+    <string name="general">Geral</string>
+    <string name="other">Outro</string>
+    <string name="voice_call">Chamada de voz</string>
+    <string name="video_call">Chamada de vídeo</string>
+    <string name="schedule_call">Agendar chamada</string>
+    <string name="fake_call1">Chamada falsa</string>
+    <string name="audio_fake_call">Chamada falsa de áudio</string>
+    <string name="video_fake_call">Chamada falsa de vídeo</string>
+    <string name="audio_call">Chamada de áudio</string>
+    <string name="main_features">Principais recursos</string>
+    <string name="switch_with_peace_of_mind">Troque com tranquilidade.</string>
+    <string name="enjoy_ads_free">Desfrute sem anúncios</string>
+    <string name="_24_7_service_support">Suporte de serviço 24/7</string>
+    <string name="more_calling_themes">Mais temas de chamadas</string>
+    <string name="premium_plan">Plano premium</string>
+    <string name="premuim">Premium</string>
+    <string name="basic">Básico</string>
+    <string name="_1_week">1 semana</string>
+    <string name="_1_month">1 mês</string>
+    <string name="_6_months">6 meses</string>
+    <string name="recommended">RECOMENDADO</string>
+    <string name="check_for_updates">Verificar atualizações</string> <!-- Portuguese (pt) -->
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="you_re_leaving_are_you_sure_you_want_nto_quit_app">Você está saindo. Tem certeza de que deseja sair do aplicativo?</string>
+    <string name="quit_app">Sair do aplicativo?</string>
+    <string name="enter_name">Digite o nome</string>
+    <string name="enter_number">Digite o número</string>
+
+
+    <!-- Portuguese -->
+    <string name="apply">Aplicar</string>
+    <string name="flip">Virar</string>
+    <string name="end">Fim</string>
+
+    <string name="_10_seconds">10 s</string>
+    <string name="_30_seconds">30 s</string>
+    <string name="_1_minute">1 min</string>
+    <string name="_5_minutes">5 min</string>
+
+    <string name="seconds">10 s</string>
+    <string name="please">Por favor, aguarde</string>
+    <string name="full_ad">Anúncio completo prestes a ser carregado</string>
+    <string name="reward_ad">Anúncio recompensado</string>
+    <string name="reward">Tempo restante da recompensa:</string>
+    <string name="get_prem">Obtenha acesso premium</string>
+    <string name="upgrade_now">Atualize agora</string>
+    <string name="no_internet">Sem conexão com a Internet</string>
+    <string name="try_again">Tente novamente</string>
+
+</resources>

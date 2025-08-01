@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name" translatable="false">Prank Call &amp;  Fake Chat</string>
+    <string name="splashtext001">تماس شوخی</string>
+    <string name="splashtext002">افراد را با تماس‌ها شوخی کن</string>
+    <string name="splashbtn_txt">شروع کنید</string>
+    <!--Languages-->
+    <string name="Lang_mainhead">انتخاب زبان</string>
+    <!--Permission-->
+    <string name="permissionmaintext">درخواست اجازه</string>
+    <string name="permissionmainheading">اجازه</string>
+    <string name="permissionsecheading">تماس جعلی نیاز به مجوزهای زیر برای عملکرد بهینه دارد:</string>
+    <string name="permissioncardheading">دسترسی بده</string>
+    <string name="permissioncardsecheading">لطفاً مجوز «دسترسی به مدیریت همه فایل‌ها» را فعال کنید تا برنامه ویجت کار کند. برای ادامه دکمه را فشار دهید.</string>
+    <string name="permissionbutton">اجازه بده</string>
+    <string name="permission_consent">حریم خصوصی شما اولویت ماست. ما تضمین می‌کنیم که هیچ طرف سومی به داده‌های شما دسترسی نخواهد داشت. این مجوزها تنها برای بهبود تجربه شما در برنامه درخواست می‌شوند.\n\nبا فشردن «موافقت و ادامه»، شما شرایط ما را می‌پذیرید و تعهد ما به حریم خصوصی شما را به رسمیت می‌شناسید.</string>
+    <string name="agree_continue">موافقت</string>
+    <string name="addtohomemainheading">چگونه استفاده کنید</string>
+    <string name="continuenbutton">بعدی</string>
+    <string name="endbutton">پایان</string>
+    <string name="skipnbutton">رد کنید</string>
+    <string name="savebutton">ذخیره</string>
+    <string name="modebutton">حالت</string>
+    <string name="rate_us">ما را ارزیابی کنید</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="home">خانه</string>
+    <string name="priv"><u>سیاست حفظ حریم خصوصی</u></string>
+    <string name="lang">زبان‌ها</string>
+    <string name="consent">تنظیمات رضایت</string>
+    <string name="setting">تنظیمات</string>
+    <string name="ringtone">رینگتون</string>
+    <string name="themes">تم‌های تماس‌گیرنده</string>
+    <string name="pause">توقف</string>
+    <string name="hold">نگه‌داشتن</string>
+    <string name="mute">بی‌صدا</string>
+    <string name="unmute">از بی‌صدا خارج کردن</string>
+    <string name="speaker">بلندگو</string>
+    <string name="mike">میکروفون</string>
+    <string name="call">تماس</string>
+    <string name="end_call">پایان تماس</string>
+    <string name="theme">تم‌ها</string>
+    <string name="scedhule">برنامه‌ریزی</string>
+    <string name="scedhule_btn">برنامه‌ریزی تماس</string>
+    <string name="call_me">الان با من تماس بگیر</string>
+    <string name="call_later">بعداً با من تماس بگیر</string>
+    <string name="done">اعمال</string>
+    <string name="Stim">شبیه‌سازی تماس</string>
+    <string name="fake_chat">چت جعلی</string>
+    <string name="seeall">مشاهده همه</string>
+    <string name="fake_call">تماس صوتی و تصویری جعلی</string>
+    <string name="addcall">افزودن تماس</string>
+    <string name="calltheme">تم تماس‌گیرنده</string>
+    <string name="applang">زبان برنامه</string>
+    <string name="splash_sechead">این یک شوخی است!</string>
+    <string name="splash_mainhead">چت صوتی تصویری\nسرگرمی زیاد</string>
+    <string name="splash_lasthead">شما می‌توانید یک دوست خیالی داشته باشید تا\nخصوصیت شما را حفظ کند</string>
+    <string name="splashpriv"><![CDATA[<u>سیاست حفظ حریم خصوصی</u>]]></string>
+    <string name="we_require_permissions_to_function_properly">برای عملکرد بدون مشکل، لطفاً مجوزهای لازم را ارائه دهید.</string>
+    <string name="camerapermi"><font color="#FF000000"><big><b>دوربین:</b></big></font> <big>دسترسی به دوربین برای ایجاد صفحه تماس واقعی.</big></string>
+    <string name="overlaypermi"><font color="#FF000000"><big><b>پوشش:</b></big></font><big> نمایش بر روی برنامه‌های دیگر برای واسط تماس جعلی.</big></string>
+    <string name="mediapermi"><font color="#FF000000"><big><b>ذخیره‌سازی رسانه:</b></big></font> <big>دسترسی به عکس‌ها، رسانه‌ها و فایل‌ها برای تماس جعلی</big></string>
+    <string name="allow">ادامه</string>
+    <string name="buy_prem">خرید نسخه پرمیوم</string>
+    <string name="upgd_prem">ارتقاء به نسخه پرمیوم و باز کردن شوخی‌ها\nبا تجربه بدون تبلیغات.</string>
+    <string name="ads_free">تجربه بدون تبلیغات</string>
+    <string name="enjoy_un">از تماس‌های نامحدود لذت ببرید</string>
+    <string name="serv_sup">پشتیبانی خدمات ۲۴/۷</string>
+    <string name="unlock_pro">باز کردن پرو زودتر</string>
+    <string name="select_plan">برنامه خود را انتخاب کنید</string>
+    <string name="one_mnth">۱ ماه</string>
+    <string name="six_mnth">۶ ماه</string>
+    <string name="twelve_mnth">۱۲ ماه</string>
+    <string name="recom">پیشنهادی</string>
+    <string name="main_inapp">این اشتراک‌ها خودکار تجدید می‌شوند و در پایان دوره انتخاب شده دوباره فعال می‌شوند</string>
+    <string name="sec_inapp">با آرامش خاطر جابه‌جا شوید.</string>
+    <string name="cancel_any">هر وقت بخواهید لغو کنید.</string>
+    <string name="sub">همین حالا مشترک شوید</string>
+    <string name="terms">شرایط خدمات.</string>
+    <string name="mnth">/ماه</string>
+    <string name="mnths">/۶ ماه</string>
+    <string name="yr">/سال</string>
+    <string name="next">بعدی</string>
+    <string name="app_up">بروزرسانی برنامه</string>
+    <string name="camera">دوربین</string>
+    <string name="camera_sub">دسترسی به دوربین برای ایجاد صفحه‌های تماس واقعی</string>
+    <string name="write">تنظیمات نوشتن</string>
+    <string name="write_sub">برای بهبود تجربه شما در برنامه، به مجوز تنظیمات برای تغییر برخی تنظیمات سیستم نیاز داریم.</string>
+    <string name="overlay">همپوشانی</string>
+    <string name="overlay_sub">نمایش روی برنامه‌های دیگر برای رابط تماس جعلی.</string>
+    <string name="cancel_notice"><b>توجه:</b> این اشتراک‌ها به‌طور خودکار تمدید می‌شوند و فوراً هزینه کسر می‌شود. این اشتراک‌ها در پایان دوره انتخاب‌شده فعال می‌شوند و می‌توان آن‌ها را در هر زمان لغو کرد.</string>
+    <string name="general">عمومی</string>
+    <string name="other">دیگر</string>
+    <string name="voice_call">تماس صوتی</string>
+    <string name="video_call">تماس تصویری</string>
+    <string name="schedule_call">برنامه‌ریزی تماس</string>
+    <string name="fake_call1">تماس ساختگی</string>
+    <string name="audio_fake_call">تماس صوتی ساختگی</string>
+    <string name="video_fake_call">تماس تصویری ساختگی</string>
+    <string name="audio_call">تماس صوتی</string>
+    <string name="main_features">ویژگی‌های اصلی</string>
+    <string name="switch_with_peace_of_mind">با خیال راحت تغییر دهید.</string>
+    <string name="enjoy_ads_free">بدون تبلیغات لذت ببرید</string>
+    <string name="_24_7_service_support">پشتیبانی خدمات 24 ساعته</string>
+    <string name="more_calling_themes">تم‌های تماس بیشتر</string>
+    <string name="premium_plan">طرح پریمیوم</string>
+    <string name="premuim">پریمیوم</string>
+    <string name="basic">بنیادی</string>
+    <string name="_1_week">1 هفته</string>
+    <string name="_1_month">1 ماه</string>
+    <string name="_6_months">6 ماه</string>
+    <string name="recommended">توصیه شده</string>
+    <string name="check_for_updates">بررسی به‌روزرسانی‌ها</string> <!-- Persian (fa) -->
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="you_re_leaving_are_you_sure_you_want_nto_quit_app">شما در حال خروج هستید. آیا مطمئن هستید که می‌خواهید از برنامه خارج شوید؟</string>
+    <string name="quit_app">خروج از برنامه؟</string>
+    <string name="enter_name">نام را وارد کنید</string>
+    <string name="enter_number">شماره را وارد کنید</string>
+
+
+    <!-- Persian -->
+    <string name="apply">اعمال</string>
+    <string name="flip">برگرداندن</string>
+    <string name="end">پایان</string>
+
+    <string name="_10_seconds">۱۰ ثانیه</string>
+    <string name="_30_seconds">۳۰ ثانیه</string>
+    <string name="_1_minute">۱ دقیقه</string>
+    <string name="_5_minutes">۵ دقیقه</string>
+
+    <string name="seconds">۱۰ ثانیه</string>
+    <string name="please">لطفاً صبر کنید</string>
+    <string name="full_ad">تبلیغ کامل در حال بارگذاری است</string>
+    <string name="reward_ad">تبلیغ با پاداش</string>
+    <string name="reward">زمان باقی‌مانده پاداش:</string>
+    <string name="get_prem">دسترسی ویژه بگیرید</string>
+    <string name="upgrade_now">هم‌اکنون ارتقاء دهید</string>
+    <string name="no_internet">اتصال اینترنت موجود نیست</string>
+    <string name="try_again">دوباره امتحان کنید</string>
+
+
+</resources>

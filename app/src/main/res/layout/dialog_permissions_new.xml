@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:backgroundTint="@color/trans">-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/mainconst"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="@dimen/_10sdp"-->
+<!--        android:background="@drawable/rounded_corner_bg_white"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+
+<!--        &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/textView21"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="0dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginStart="16dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginTop="@dimen/_30sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginEnd="16dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginBottom="@dimen/_10sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:text="@string/permission_consent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textColor="@color/black"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textSize="@dimen/_13sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintBottom_toTopOf="@+id/btnGrantPermissions"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--        &lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:id="@+id/btnGrantPermissions"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_width="@dimen/_160sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_height="48dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:layout_marginBottom="@dimen/_10sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:background="@drawable/permission_btn_bg"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:text="Agree &amp; continue"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textAlignment="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textColor="@color/white"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    android:textSize="@dimen/_13sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;                    app:layout_constraintTop_toBottomOf="@+id/textView21" />&ndash;&gt;-->
+<!--        &lt;!&ndash;        </androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
+
+<!--        &lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/imageView10"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="@dimen/_72sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="@dimen/_60sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_marginTop="16dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:background="@drawable/v2_ic_icon_file"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintBottom_toTopOf="@+id/mainconst"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintEnd_toEndOf="@+id/mainconst"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintStart_toStartOf="@+id/mainconst"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintTop_toTopOf="@+id/mainconst" />&ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView10"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:background="@drawable/ic_consent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView21"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="@dimen/_20sdp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_marginEnd="@dimen/_20sdp"-->
+<!--            android:justificationMode="inter_word"-->
+<!--            android:fontFamily="@font/monseratt_med"-->
+<!--            android:gravity="start"-->
+<!--            android:padding="8dp"-->
+<!--            android:text="@string/permission_consent"-->
+<!--            android:textColor="#031429"-->
+<!--            android:textSize="@dimen/_13sdp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/imageView10" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/btncancel"-->
+<!--            android:layout_width="@dimen/_70sdp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/exitdialog_no_shape"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingHorizontal="@dimen/_10sdp"-->
+<!--            android:paddingVertical="@dimen/_6sdp"-->
+<!--            android:text="Cancel"-->
+<!--            android:textColor="@color/exitdialog_textcolor"-->
+<!--            android:textSize="@dimen/_15sdp"-->
+<!--            android:visibility="gone"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/btnGrantPermissions"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/btnGrantPermissions"-->
+<!--            app:layout_constraintHorizontal_chainStyle="spread"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/btnGrantPermissions" />-->
+<!--        " />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/btnGrantPermissions"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/_35sdp"-->
+<!--            android:layout_marginTop="@dimen/_20sdp"-->
+<!--            android:layout_marginBottom="@dimen/_16sdp"-->
+<!--            android:background="@drawable/exitdialog_yes"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingHorizontal="@dimen/_14sdp"-->
+<!--            android:paddingVertical="@dimen/_6sdp"-->
+<!--            android:text="Agree &amp; Continue"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="@dimen/_15sdp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/btncancel"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView21" />-->
+<!--        &lt;!&ndash;        <TextView&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:id="@+id/btnGrantPermissions"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_width="@dimen/_160sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_height="48dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:layout_marginTop="24dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:background="@drawable/permission_btn_bg"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:text="Agree &amp; continue"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textSize="@dimen/_13sdp"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textAlignment="center"&ndash;&gt;-->
+<!--        &lt;!&ndash;            android:textColor="@color/white"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--        &lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/textView21"/>&ndash;&gt;-->
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_bg_white"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="none"
+    android:layout_marginStart="@dimen/_20sdp"
+    android:layout_marginEnd="@dimen/_20sdp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="76dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainconst"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/rounded_corner_bg_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_consent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:fontFamily="@font/monseratt_med"
+            android:gravity="start"
+            android:justificationMode="inter_word"
+            android:padding="8dp"
+            android:text="@string/permission_consent"
+            android:textColor="#031429"
+            android:textSize="@dimen/_13sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/btncancel"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/exitdialog_no_shape"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_6sdp"
+            android:text="Cancel"
+            android:textColor="@color/exitdialog_textcolor"
+            android:textSize="@dimen/_15sdp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/btnGrantPermissions"
+            app:layout_constraintEnd_toStartOf="@+id/btnGrantPermissions"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnGrantPermissions" />
+        " />
+
+        <TextView
+            android:id="@+id/btnGrantPermissions"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:background="@drawable/exitdialog_yes"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_14sdp"
+            android:paddingVertical="@dimen/_6sdp"
+            android:text="Agree &amp; Continue"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btncancel"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

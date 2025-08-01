@@ -1,0 +1,141 @@
+
+<resources>
+        <string name="app_name" translatable="false">Prank Call &amp;  Fake Chat</string>
+        <string name="splashtext001">प्रैंक कॉल</string>
+        <string name="splashtext002">लोगों को कॉल के साथ प्रैंक करें</string>
+        <string name="splashbtn_txt">शुरू करें</string>
+        //भाषाएँ
+        <string name="Lang_mainhead">भाषा चुनें</string>
+        /////अनुमति
+        <string name="permissionmaintext">अनुमति अनुरोध</string>
+        <string name="permissionmainheading">अनुमति</string>
+        <string name="permissionsecheading">नकली कॉल के लिए इष्टतम कार्यक्षमता के लिए निम्नलिखित अनुमतियाँ आवश्यक हैं:</string>
+        <string name="permissioncardheading">पहुंच की अनुमति दें</string>
+        <string name="permissioncardsecheading">कृपया यह सुनिश्चित करने के लिए "सभी फ़ाइलों को प्रबंधित करने की अनुमति दें" सक्षम करें कि विजेट ऐप काम करता है। जारी रखने के लिए बटन पर टैप करें</string>
+        <string name="permissionbutton">अनुमति दें</string>
+    <string name="permission_consent">आपकी गोपनीयता हमारी सर्वोच्च प्राथमिकता है. हम आपको आश्वस्त करते हैं कि कोई भी तृतीय-पक्ष आपके डेटा तक नहीं पहुंचेगा। इन अनुमतियों का अनुरोध केवल आपके ऐप अनुभव को बढ़ावा देने के लिए किया जाता है.\n\nटैप करके\'सहमत &amp; जारी रखना\', आप हमारी शर्तें स्वीकार करते हैं और अपनी गोपनीयता के प्रति हमारे समर्पण को पहचानते हैं.</string>
+        <string name="agree_continue">अनुमति दें</string>
+        <string name="addtohomemainheading">कैसे उपयोग करें</string>
+        <string name="continuenbutton">आगे</string>
+        <string name="endbutton">समाप्त करें</string>
+        <string name="skipnbutton">छोड़ें</string>
+        <string name="savebutton">सहेजें</string>
+        <string name="modebutton">मोड</string>
+        <string name="rate_us">हमें रेट करें</string>
+        <string name="share">साझा करें</string>
+        <string name="home">मुख्य पृष्ठ</string>
+        <string name="priv"><u>गोपनीयता नीति</u></string>
+        <string name="lang">भाषाएँ</string>
+        <string name="consent">अनुमति सेटिंग</string>
+        <string name="setting">सेटिंग्स</string>
+        <string name="ringtone">रिंगटोन</string>
+        <string name="themes">कॉलर थीम</string>
+        <string name="pause">रोकें</string>
+        <string name="hold">होल्ड</string>
+        <string name="mute">म्यूट</string>
+        <string name="unmute">अनम्यूट</string>
+        <string name="speaker">स्पीकर</string>
+        <string name="mike">माइक</string>
+        <string name="call">कॉल</string>
+        <string name="end_call">कॉल समाप्त करें</string>
+        <string name="theme">थीम्स</string>
+        <string name="scedhule">अनुसूची</string>
+        <string name="scedhule_btn">कॉल अनुसूची करें</string>
+        <string name="call_me">मुझे अभी कॉल करें</string>
+        <string name="call_later">मुझे बाद में कॉल करें</string>
+        <string name="done">लागू करें</string>
+        <string name="Stim">एक कॉल का अनुकरण करें</string>
+        <string name="fake_chat">नकली चैट</string>
+        <string name="seeall">सभी देखें</string>
+        <string name="fake_call">नकली वीडियो &amp; ऑडियो कॉल</string>
+        <string name="addcall">कॉल जोड़ें</string>
+        <string name="calltheme">कॉलर थीम</string>
+        <string name="applang">ऐप भाषा</string>
+        <string name="splash_sechead">यह एक प्रैंक है!!</string>-->
+        <string name="splash_mainhead">ऑडियो वीडियो चैट\nबहुत मज़ा</string>
+        <string name="splash_lasthead">आप एक काल्पनिक मित्र बना सकते हैं जो आपकी\nगोपनीयता की रक्षा करेगा</string>
+        <string name="splashpriv"><![CDATA[<u>गोपनीयता नीति</u>]]></string>
+        <string name="we_require_permissions_to_function_properly">सुनिश्चित कार्यक्षमता के लिए हम आवश्यक अनुमतियों का अनुरोध करते हैं।</string>
+        <string name="camerapermi"><font color="#FF000000"><big><b>कैमरा:</b></big></font> <big>वास्तविक कॉल स्क्रीन बनाने के लिए कैमरे का उपयोग।</big></string>
+        <string name="overlaypermi"><font color="#FF000000"><big><b>ओवरले:</b></big></font><big> नकली कॉल इंटरफ़ेस के लिए अन्य ऐप्स पर प्रदर्शित करें।</big></string>
+        <string name="mediapermi"><font color="#FF000000"><big><b>मीडिया स्टोरेज:</b></big></font> <big>नकली कॉल के लिए फ़ोटो, मीडिया, और फ़ाइलों तक पहुंच।</big></string>
+        <string name="allow">जारी रखें</string>
+        <string name="buy_prem">प्रीमियम खरीदें</string>
+        <string name="upgd_prem">प्रीमियम में अपग्रेड करें और\nविज्ञापन मुक्त अनुभव के साथ प्रैंक अनलॉक करें।</string>
+        <string name="ads_free">विज्ञापन मुक्त अनुभव</string>
+        <string name="enjoy_un">असीमित कॉल का आनंद लें</string>
+        <string name="serv_sup">24/7 सेवा समर्थन</string>
+        <string name="unlock_pro">प्रो अर्ली अनलॉक करें</string>
+        <string name="select_plan">अपनी योजना चुनें</string>
+        <string name="one_mnth">1 महीना</string>
+        <string name="six_mnth">6 महीने</string>
+        <string name="twelve_mnth">12 महीने</string>
+        <string name="recom">अनुशंसित</string>
+        <string name="main_inapp">ये सब्सक्रिप्शन स्वचालित रूप से नवीनीकृत होते हैं और चयनित अवधि के अंत में फिर से सक्रिय हो जाएंगे</string>
+        <string name="sec_inapp">शांति के साथ स्विच करें।</string>
+        <string name="cancel_any">कभी भी रद्द करें।</string>
+        <string name="sub">अभी सब्सक्राइब करें</string>
+        <string name="terms">सेवा की शर्तें।</string>
+        <string name="mnth">/महीना</string>
+        <string name="mnths">/6 महीने</string>
+        <string name="yr">/वर्ष</string>
+        <string name="next">अगला</string>
+        <string name="app_up">ऐप अपडेट करें</string>
+        <string name="camera">कैमरा</string>
+         <string name="camera_sub">वास्तविक कॉल स्क्रीन बनाने के लिए कैमरा तक पहुंच</string>
+        <string name="write">लेखन अनुमति</string>
+        <string name="write_sub">आपके ऐप अनुभव को बेहतर बनाने के लिए, हमें कुछ सिस्टम सेटिंग्स को संशोधित करने की अनुमति की आवश्यकता है।</string>
+        <string name="overlay">ओवरले</string>
+        <string name="overlay_sub">फर्जी कॉल इंटरफ़ेस के लिए अन्य ऐप्स के ऊपर दिखाएं।</string>
+
+    <string name="cancel_notice"><b>ध्यान दें:</b> ये सब्सक्रिप्शन स्वचालित रूप से नवीकरणीय होते हैं और तुरंत चार्ज किए जाएंगे। ये सब्सक्रिप्शन चयनित अवधि के अंत में पुनः सक्रिय किए जाएंगे, और किसी भी समय रद्द किए जा सकते हैं।</string>
+    <string name="general">सामान्य</string>
+    <string name="other">अन्य</string>
+    <string name="voice_call">वॉयस कॉल</string>
+    <string name="video_call">वीडियो कॉल</string>
+    <string name="schedule_call">कॉल शेड्यूल करें</string>
+    <string name="fake_call1">फेक कॉल</string>
+    <string name="audio_fake_call">ऑडियो फेक कॉल</string>
+    <string name="video_fake_call">वीडियो फेक कॉल</string>
+    <string name="audio_call">ऑडियो कॉल</string>
+    <string name="main_features">मुख्य विशेषताएँ</string>
+    <string name="switch_with_peace_of_mind">सुख से स्विच करें।</string>
+    <string name="enjoy_ads_free">बिना विज्ञापन का आनंद लें</string>
+    <string name="_24_7_service_support">24/7 सेवा समर्थन</string>
+    <string name="more_calling_themes">और कॉलिंग थीम्स</string>
+    <string name="premium_plan">प्रीमियम योजना</string>
+    <string name="premuim">प्रीमियम</string>
+    <string name="basic">बुनियादी</string>
+    <string name="_1_week">1 सप्ताह</string>
+    <string name="_1_month">1 महीना</string>
+    <string name="_6_months">6 महीने</string>
+    <string name="recommended">सिफारिश की गई</string>
+    <string name="check_for_updates">अपडेट्स के लिए जाँच करें</string> <!-- Hindi (hi) -->
+
+    <!-- Hindi -->
+    <string name="apply">लागू करें</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="you_re_leaving_are_you_sure_you_want_nto_quit_app">आप जा रहे हैं। क्या आप वाकई ऐप छोड़ना चाहते हैं?</string>
+    <string name="quit_app">ऐप छोड़ें?</string>
+    <string name="enter_name">नाम दर्ज करें</string>
+    <string name="enter_number">नंबर दर्ज करें</string>
+    <string name="flip">पलटें</string>
+    <string name="end">समाप्त</string>
+
+    <string name="_10_seconds">10 सेकंड</string>
+    <string name="_30_seconds">30 सेकंड</string>
+    <string name="_1_minute">1 मिनट</string>
+    <string name="_5_minutes">5 मिनट</string>
+
+    <string name="seconds">10 सेकंड</string>
+    <string name="please">कृपया प्रतीक्षा करें</string>
+    <string name="full_ad">पूरा विज्ञापन लोड हो रहा है</string>
+    <string name="reward_ad">रिवॉर्डेड विज्ञापन</string>
+    <string name="reward">पुरस्कार का शेष समय:</string>
+    <string name="get_prem">प्रीमियम एक्सेस प्राप्त करें</string>
+    <string name="upgrade_now">अभी अपग्रेड करें</string>
+    <string name="no_internet">इंटरनेट कनेक्शन नहीं है</string>
+    <string name="try_again">पुनः प्रयास करें</string>
+
+</resources>

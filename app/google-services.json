@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499557006132",
+    "project_id": "fake-call-370b8",
+    "storage_bucket": "fake-call-370b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499557006132:android:5ce6f0c63f5312ab7ac361",
+        "android_client_info": {
+          "package_name": "com.fakecall.prankfriend.fakechat.fakevideocall.celebrityfakecall.prankchat.fakecall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhsQKoSQYcgyZb_wUWgEKAlUazxwmVZ0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

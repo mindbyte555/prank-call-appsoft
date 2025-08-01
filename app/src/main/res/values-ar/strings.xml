@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name" translatable="false">Prank Call &amp;  Fake Chat</string>
+    <string name="splashtext001">مكالمة مزحة</string>
+    <string name="splashtext002">قم بخداع الناس بالمكالمات</string>
+    <string name="splashbtn_txt">ابدأ الآن</string>
+    <!-- لغات -->
+    <string name="Lang_mainhead">اختر اللغة</string>
+    <!-- أذونات -->
+    <string name="permissionmaintext">طلب الإذن</string>
+    <string name="permissionmainheading">الإذن</string>
+    <string name="permissionsecheading">مكالمة وهمية تتطلب الأذونات التالية لتحقيق أفضل تجربة:</string>
+    <string name="permissioncardheading">السماح بالوصول</string>
+    <string name="permissioncardsecheading">يرجى تمكين "السماح بالوصول لإدارة جميع الملفات" للتأكد من أن تطبيق الأداة يعمل. اضغط على الزر للاستمرار</string>
+    <string name="permissionbutton">السماح بالإذن</string>
+    <string name="permission_consent">خصوصيتك هي أولويتنا. نؤكد لك أنه لن يصل طرف ثالث إلى بياناتك. هذه الأذونات مطلوبة فقط لتحسين تجربتك في التطبيق.\n\nبالضغط على "موافقة ومتابعة"، فإنك تقبل شروطنا وتعترف بتفانينا لخصوصيتك.</string>
+    <string name="agree_continue">السماح</string>
+    <string name="addtohomemainheading">كيفية الاستخدام</string>
+    <string name="continuenbutton">التالي</string>
+    <string name="endbutton">إنهاء</string>
+    <string name="skipnbutton">تخطي</string>
+    <string name="savebutton">حفظ</string>
+    <string name="modebutton">الوضع</string>
+    <string name="rate_us">قيّمنا</string>
+    <string name="share">مشاركة</string>
+    <string name="home">الرئيسية</string>
+    <string name="priv"><u>سياسة الخصوصية</u></string>
+    <string name="lang">اللغات</string>
+    <string name="consent">إعدادات الموافقة</string>
+    <string name="setting">الإعدادات</string>
+    <string name="ringtone">نغمة الرنين</string>
+    <string name="themes">موضوع المتصل</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="hold">انتظار</string>
+    <string name="mute">كتم الصوت</string>
+    <string name="unmute">إلغاء كتم الصوت</string>
+    <string name="speaker">مكبر الصوت</string>
+    <string name="mike">ميكروفون</string>
+    <string name="call">اتصال</string>
+    <string name="end_call">إنهاء المكالمة</string>
+    <string name="theme">الثيمات</string>
+    <string name="scedhule">جدولة</string>
+    <string name="scedhule_btn">جدولة مكالمة</string>
+    <string name="call_me">اتصل بي الآن</string>
+    <string name="call_later">اتصل بي لاحقاً</string>
+    <string name="done">تطبيق</string>
+    <string name="Stim">محاكاة مكالمة</string>
+    <string name="fake_chat">دردشة وهمية</string>
+    <string name="seeall">عرض الكل</string>
+    <string name="fake_call">مكالمة فيديو وصوت وهمية</string>
+    <string name="addcall">إضافة مكالمة</string>
+    <string name="calltheme">موضوع المتصل</string>
+    <string name="applang">لغة التطبيق</string>
+    <string name="splash_sechead">إنها مزحة!!</string>
+    <string name="splash_mainhead">دردشة صوتية فيديو\nالكثير من المرح</string>
+    <string name="splash_lasthead">يمكنك أن يكون لديك صديق وهمي\nلحفظ خصوصيتك</string>
+    <string name="splashpriv"><![CDATA[<u>سياسة الخصوصية</u>]]></string>
+    <string name="we_require_permissions_to_function_properly">لضمان التشغيل السلس، نطلب منك الأذونات اللازمة.</string>
+    <string name="camerapermi"><font color="#FF000000"><big><b>الكاميرا:</b></big></font> <big>الوصول إلى الكاميرا لإنشاء شاشات مكالمة واقعية.</big></string>
+    <string name="overlaypermi"><font color="#FF000000"><big><b>التغطية:</b></big></font><big> العرض فوق التطبيقات الأخرى لواجهة المكالمة الوهمية.</big></string>
+    <string name="mediapermi"><font color="#FF000000"><big><b>وسائط التخزين:</b></big></font> <big>الوصول إلى الصور والوسائط والملفات للمكالمة الوهمية.</big></string>
+    <string name="allow">استمر</string>
+    <string name="buy_prem">اشترِ بريميوم</string>
+    <string name="upgd_prem">قم بالترقية إلى بريميوم وافتح\nالمقالب مع تجربة خالية من الإعلانات.</string>
+    <string name="ads_free">تجربة خالية من الإعلانات</string>
+    <string name="enjoy_un">استمتع بمكالمات غير محدودة</string>
+    <string name="serv_sup">دعم فني 24/7</string>
+    <string name="unlock_pro">افتح برو مبكراً</string>
+    <string name="select_plan">اختر خطتك</string>
+    <string name="one_mnth">شهر واحد</string>
+    <string name="six_mnth">6 أشهر</string>
+    <string name="twelve_mnth">12 شهر</string>
+    <string name="recom">موصى به</string>
+    <string name="main_inapp">هذه الاشتراكات قابلة للتجديد التلقائي وسيتم\nإعادة تفعيلها في نهاية الفترة المختارة</string>
+    <string name="sec_inapp">قم بالتبديل براحة بال.</string>
+    <string name="cancel_any">الإلغاء في أي وقت.</string>
+    <string name="sub">اشترك الآن</string>
+    <string name="terms">شروط الخدمة.</string>
+    <string name="mnth">/شهر</string>
+    <string name="mnths">/6 أشهر</string>
+    <string name="yr">/سنة</string>
+    <string name="next">التالي</string>
+    <string name="app_up">تحديث التطبيق</string>
+    <string name="camera">الكاميرا</string>
+    <string name="camera_sub">الوصول إلى الكاميرا لإنشاء شاشات مكالمات واقعية</string>
+    <string name="write">إعداد الكتابة</string>
+    <string name="write_sub">لتحسين تجربة التطبيق الخاصة بك، نحتاج إلى إذن الإعداد لتعديل بعض إعدادات النظام.</string>
+    <string name="overlay">التراكب</string>
+    <string name="overlay_sub">العرض فوق التطبيقات الأخرى لواجهة المكالمات الوهمية.</string>
+    <string name="cancel_notice"><b>ملاحظة:</b> هذه الاشتراكات قابلة للتجديد التلقائي وستُخصم فورًا. سيتم إعادة تفعيل هذه الاشتراكات في نهاية الفترة المحددة ويمكن إلغاؤها في أي وقت.</string>
+    <string name="general">عام</string>
+    <string name="other">أخرى</string>
+    <string name="voice_call">مكالمة صوتية</string>
+    <string name="video_call">مكالمة فيديو</string>
+    <string name="schedule_call">جدولة مكالمة</string>
+    <string name="fake_call1">مكالمة وهمية</string>
+    <string name="audio_fake_call">مكالمة وهمية صوتية</string>
+    <string name="video_fake_call">مكالمة وهمية بالفيديو</string>
+    <string name="audio_call">مكالمة صوتية</string>
+    <string name="main_features">الميزات الرئيسية</string>
+    <string name="switch_with_peace_of_mind">بدّل مع راحة البال.</string>
+    <string name="enjoy_ads_free">استمتع بدون إعلانات</string>
+    <string name="_24_7_service_support">دعم الخدمة على مدار الساعة</string>
+    <string name="more_calling_themes">المزيد من ثيمات المكالمات</string>
+    <string name="premium_plan">الخطة المميزة</string>
+    <string name="premuim">مميز</string>
+    <string name="basic">أساسي</string>
+    <string name="_1_week">أسبوع واحد</string>
+    <string name="_1_month">شهر واحد</string>
+    <string name="_6_months">6 أشهر</string>
+    <string name="recommended">موصى به</string>
+
+    <string name="apply">تطبيق</string>
+    <string name="check_for_updates">تحقق من التحديثات</string> <!-- Arabic (ar) -->
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="you_re_leaving_are_you_sure_you_want_nto_quit_app">أنت تغادر. هل أنت متأكد أنك تريد إنهاء التطبيق؟</string>
+    <string name="quit_app">إنهاء التطبيق؟</string>
+    <string name="enter_name">أدخل الاسم</string>
+    <string name="enter_number">أدخل الرقم</string>
+    <string name="flip">	اقلب</string>
+    <string name="end">النهاية</string>
+
+    <string name="seconds">١٠ ثواني</string>
+
+    <string name="_10_seconds">١٠ ثانية</string>
+    <string name="_30_seconds">٣٠ ثانية</string>
+    <string name="_1_minute">١ دقيقة</string>
+    <string name="_5_minutes">٥ دقائق</string>
+    <string name="please">الرجاء الانتظار</string>
+    <string name="full_ad">سيتم تحميل الإعلان الكامل</string>
+    <string name="reward_ad">إعلان بمكافأة</string>
+    <string name="reward">الوقت المتبقي للمكافأة:</string>
+    <string name="get_prem">احصل على الوصول المميز</string>
+    <string name="upgrade_now">الترقية الآن</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="try_again">حاول مرة أخرى</string>
+
+
+</resources>

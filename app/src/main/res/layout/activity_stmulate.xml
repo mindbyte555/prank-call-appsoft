@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/scedhuleing_bg"
+    tools:context="com.example.baseapp.utils.StmulateActivity">
+
+    <ImageView
+        android:id="@+id/stmbackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/ic_back_black"
+        app:layout_constraintBottom_toBottomOf="@+id/minstim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/minstim" />
+    <TextView
+        android:id="@+id/minstim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Stim"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/monseratt_bold"
+        android:textColor="@color/scedhuleing_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/stimcall_img"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/ic_stim_select"
+        app:civ_border_color="#FFFFFFFF"
+        app:civ_border_width="2dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minstim" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/stimcallImg"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/_20sdp"-->
+<!--        android:src="@drawable/ic_stim_select"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/minstim" />-->
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@drawable/ic_editicon"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/monseratt_med"
+        android:hint="@string/enter_name"
+        android:maxLength="20"
+        android:padding="@dimen/_15sdp"
+        android:saveEnabled="true"
+        android:textColor="@color/black_call"
+        android:textColorHint="@color/edittext_hint"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stimcall_img" />
+
+    <EditText
+        android:id="@+id/editnumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableStart="@drawable/ic_editno"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/monseratt_med"
+        android:hint="@string/enter_number"
+        android:inputType="phone"
+        android:longClickable="false"
+        android:maxLength="10"
+        android:padding="@dimen/_15sdp"
+        android:saveEnabled="true"
+        android:textColor="@color/black_call"
+        android:textColorHint="@color/edittext_hint"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="@+id/editname"
+        app:layout_constraintStart_toStartOf="@+id/editname"
+        app:layout_constraintTop_toBottomOf="@+id/editname" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/simulatebtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:backgroundTint="@color/scedhuleing_btn"
+        android:fontFamily="@font/monserrat_semibold"
+        android:text="@string/Stim"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_13sdp"
+        app:cornerRadius="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+       />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

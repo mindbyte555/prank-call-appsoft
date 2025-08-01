@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_chat">#FF000000</color>
+    <color name="white_chat">#FFFFFFFF</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="btn_purple">#775EFF</color>
+    <color name="folder_icon">#2196F3</color>
+    <color name="tutorial_color">#775DFF</color>
+    <color name="tutorial_text">#775EFF</color>
+    <color name="setting_bg">#F6F5FC</color>
+    <color name="purple">#AC86EF</color>
+    <color name="trans">#00000000</color>
+    <color name="exitdialog_textcolor">#323232</color>
+    <color name="exitdialog_greycolor">#6B7280</color>
+    <color name="drawer_noshapecolor">#E5F0FF</color>
+    <color name="white_call">#FFFFFFFF</color>
+    <color name="light_white">#80FFFFFF</color>
+    <color name="tab_selected">#813AC8</color>
+    <color name="tab_unselected">#24775EFF</color>
+    <color name="tab_text_unselected">#775EFF</color>
+    <color name="scedhuleing_bg">#F1F1EF</color>
+    <color name="scedhuleing_text">#272727</color>
+    <color name="insta_sec">#B3272727</color>
+    <color name="scedhuleing_btn">#813AC8</color>
+    <color name="chat_time">#40000000</color>
+    <color name="chat_text">#323232</color>
+    <color name="theme_head">#272727</color>
+    <color name="stimulate_call">#ECB8FF</color>
+    <color name="main_bg">#F1F1F1</color>
+    <color name="fake_chat_head">#272727</color>
+    <color name="seeall">#6A6F75</color>
+    <color name="edittext_hint">#7C7C7C</color>
+    <color name="splash_sec">#FFA800</color>
+    <color name="splash_btn">#813AC8</color>
+    <color name="black_call">#FF000000</color>
+    <color name="permisison_sec">#6A6F75</color>
+    <color name="permisison_main">#031429</color>
+    <color name="inapp_main">#7A7A7A</color>
+
+    <color name="halfWhite">#FFFFFFFF</color>
+    <color name="gray1">#A6A6A6</color>
+    <color name="gray2">#676872</color>
+    <color name="grayDaynight">#F4F4F4</color>
+
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_test_background_color_2">#00A3A3A3</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_outline">#E0E0E0</color>
+    <color name="sch_outline">#C4C4C4</color>
+    <color name="heading_2">#4C4F53</color>
+    <color name="ripple_color">#4DB69ED0</color>
+    <color name="shadow_black_75">#BF000000</color> <!-- 75% opacity -->
+    <color name="unlock_main">#241F39</color>
+    <color name="unlock_sec">#686868</color>
+    <color name="unlock_btn">#FFC338</color>
+    <color name="new_videocall">#7C7C7C</color>
+    <color name="whastapp_bg">#0C836F</color>
+    <color name="whastapp_question">#E1EED4</color>
+    <color name="whastapp_answertxt">#1E1E1E</color>
+    <color name="messenger_ans">#F0F0F0</color>
+    <color name="messenger_que">#0085FF</color>
+    <color name="whastapp_quetxt">#151414</color>
+    <color name="telegram_const">#447EA5</color>
+    <color name="telegram_que">#010400</color>
+    <color name="telegram_quebg">#ECFFDB</color>
+    <color name="insta_que">#5D4BFF</color>
+    <color name="upgd_now">#FFAD12</color>
+    <color name="coin">#C09CE4</color>
+    <color name="unlock_coin">#DCC9F0</color>
+    <color name="select_coin">#D7D7D7</color>
+
+</resources>

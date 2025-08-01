@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FakeCall</string>
+    <string name="splashtext001">Prank Call</string>
+    <string name="splashtext002">لوگوں کو کال کے ساتھ مذاق کریں</string>
+    <string name="splashbtn_txt">شروع کرنے کے</string>
+    //Lanaguages
+    <string name="Lang_mainhead">زبانیں منتخب کریں</string>
+    /////permission
+    <string name="permissionmaintext">اجازت کی درخواست</string>
+    <string name="permissionmainheading">اجازت</string>
+    <string name="permissionsecheading">ہمیں آلہ کی خصوصیات تک رسائی کے لیے آپ کی مدد کی ضرورت ہوگی</string>
+    <string name="permissioncardheading">رسائی کی اجازت دیں۔</string>
+    <string name="permissioncardsecheading">جعلی کال کو زیادہ سے زیادہ فعالیت کے لیے درج ذیل اجازتوں کی ضرورت ہوتی ہے۔</string>
+    <string name="permissionbutton">اجازت دیں</string>
+    <string name="permission_consent">آپ کی رازداری ہماری اولین ترجیح ہے۔ ہم آپ کو یقین دلاتے ہیں کہ کوئی بھی فریق ثالث آپ کے ڈیٹا تک رسائی حاصل نہیں کرے گا۔ ان اجازتوں کی درخواست صرف آپ کے ایپ کے تجربے کو بڑھانے کے لیے کی گئی ہے۔ \'اجازت دیں\' کو تھپتھپا کر، آپ ہماری شرائط کو قبول کرتے ہیں اور اپنی رازداری کے لیے ہماری لگن کو تسلیم کرتے ہیں۔</string>
+    <string name="agree_continue">اجازت دیں</string>
+    <string name="addtohomemainheading"> استعمال کرنے کا طریقہ</string>
+    <string name="continuenbutton">اگلے</string>
+    <string name="endbutton">ختم</string>
+    <string name="skipnbutton">چھوڑ دو</string>
+    <string name="savebutton">محفوظ کریں</string>
+    <string name="modebutton">موڈ</string>
+    <string name="rate_us">ہمیں درجہ دیں</string>
+    <string name="share">بانٹیں</string>
+    <string name="home">Home</string>
+    <string name="priv"><u>رازداری کی پالیسی</u></string>
+    <string name="lang">زبانیں</string>
+    <string name="consent">صارف کی رضامندی</string>
+    <string name="setting">ترتیبات</string>
+    <string name="ringtone">رنگ ٹونز</string>
+    <string name="themes">کالر تھیم</string>
+    <string name="pause">توقف</string>
+    <string name="hold">انتظار کرو</string>
+    <string name="mute">خاموش</string>
+    <string name="unmute">خاموش نہ کرو</string>
+    <string name="speaker">اسپیکر</string>
+    <string name="mike">مائکروفون</string>
+    <string name="call">کال کریں</string>
+    <string name="end_call">کال ختم</string>
+    <string name="theme">تھیمز</string>
+    <string name="scedhule">شیڈول</string>
+    <string name="scedhule_btn">کال شیڈول کریں</string>
+    <string name="call_me">ابھی مجھ سےرابطہ کریں</string>
+    <string name="call_later">مجھے اس کے بعد کال کریں</string>
+    <string name="done">ہو گیا</string>
+    <string name="Stim">ایک کال کی تقلید کریں</string>
+    <string name="fake_chat">جعلی چیٹ</string>
+    <string name="seeall">تمام دیکھیں</string>
+    <string name="fake_call">جعلی کال</string>
+    <string name="addcall">کال شامل کریں</string>
+    <string name="calltheme">کالر تھیم</string>
+    <string name="applang">ایپ کی زبان</string>
+    <string name="splash_sechead">یہ ایک مذاق ہے!!</string>
+    <string name="splash_mainhead">آڈیو ویڈیو چیٹ
+بہت مزہ\n</string>
+    <string name="splash_lasthead">اپنی قربت کو بچانے کے لیے آپ کا کوئی خیالی دوست ہو سکتا ہے</string>
+    <string name="we_require_permissions_to_function_properly">ہموار فعالیت کو یقینی بنانے کے لیے، ہم برائے مہربانی ضروری اجازتوں کی درخواست کرتے ہیں۔</string>
+    <string name="camerapermi">حقیقت پسندانہ کال اسکرینیں بنانے کے لیے کیمرے تک رسائی۔</string>
+    <string name="overlaypermi"><font color="#FF000000"><big><b>Overlay:</b></big></font> جعلی کال انٹرفیس کے لیے دیگر ایپس پر ڈسپلے کریں۔</string>
+    <string name="mediapermi"><font color="#FF000000"><big><b>Media Storage:</b></big></font> جعلی کال کے لیے تصاویر، میڈیا اور فائلوں تک رسائی</string>
+    <string name="allow">اجازت دیں</string>
+    <string name="buy_prem">پریمیم خریدیں</string>
+    <string name="upgd_prem">پریمیم میں اپ گریڈ کریں اور اشتہارات سے پاک تجربہ کے ساتھ مذاق\nانلاک کریں</string>
+    <string name="ads_free">اشتہارات سے پاک تجربہ</string>
+    <string name="enjoy_un">امحدود کال کا لطف اٹھائیں</string>
+    <string name="serv_sup">24/7 سروس سپورٹ</string>
+    <string name="unlock_pro">Unlock Pro Early</string>
+    <string name="select_plan">اپنا منصوبہ منتخب کریں</string>
+    <string name="one_mnth"> 1 مہینہ</string>
+    <string name="six_mnth">6 مہینے</string>
+    <string name="twelve_mnth"> 12 مہینے</string>
+    <string name="recom">تجویز کردہ</string>
+    <string name="main_inapp">یہ سبسکرپشنز خود بخود قابل تجدید ہیں اور منتخب مدت کے اختتام پر\nدوبارہ فعال ہو جائیں گی</string>
+    <string name="sec_inapp">ذہنی سکون کے ساتھ سوئچ کریں۔</string>
+    <string name="cancel_any">کسی بھی وقت منسوخ کریں۔</string>
+    <string name="sub">اب سبسکرائب کریں</string>
+    <string name="terms">سروس کی شرائط</string>
+    <string name="mnth">مہینہ/</string>
+    <string name="mnths">مہینے 6/</string>
+    <string name="yr">سال/</string>
+    <string name="next">Next</string>
+    <string name="app_up">ایپ کو اپ ڈیٹ کریں</string>
+    <string name="camera">کیمرہ</string>
+    <string name="camera_sub">حقیقی کال اسکرین بنانے کے لیے کیمرہ تک رسائی</string>
+    <string name="write">لکھنے کی اجازت</string>
+    <string name="write_sub">آپ کے ایپ کے تجربے کو بہتر بنانے کے لیے، ہمیں کچھ سسٹم سیٹنگز میں ترمیم کرنے کی اجازت درکار ہے۔</string>
+    <string name="overlay">اوورلے</string>
+    <string name="overlay_sub">جعلی کال انٹرفیس کے لیے دوسری ایپس پر ظاہر کریں۔</string>
+    <string name="cancel_notice"><b>نوٹ:</b> یہ سبسکرپشن خودکار تجدید پذیر ہیں اور فوراً چارج کی جائیں گی۔ یہ سبسکرپشن منتخب کردہ مدت کے آخر میں دوبارہ فعال کی جائیں گی، اور کسی بھی وقت منسوخ کی جا سکتی ہیں۔</string>
+    <string name="general">عام</string>
+    <string name="other">دیگر</string>
+    <string name="voice_call">آواز کال</string>
+    <string name="video_call">ویڈیو کال</string>
+    <string name="schedule_call">کال کا شیڈول بنائیں</string>
+    <string name="fake_call1">جعلی کال</string>
+    <string name="audio_fake_call">آڈیو جعلی کال</string>
+    <string name="video_fake_call">ویڈیو جعلی کال</string>
+    <string name="audio_call">آڈیو کال</string>
+    <string name="main_features">اہم خصوصیات</string>
+    <string name="switch_with_peace_of_mind">آرام سے سوئچ کریں۔</string>
+    <string name="enjoy_ads_free">بغیر اشتہار کے لطف اٹھائیں</string>
+    <string name="_24_7_service_support">24/7 سروس سپورٹ</string>
+    <string name="more_calling_themes">مزید کالنگ تھیمز</string>
+    <string name="premium_plan">پریمیم پلان</string>
+    <string name="premuim">پریمیم</string>
+    <string name="basic">بنیادی</string>
+    <string name="_1_week">1 ہفتہ</string>
+    <string name="_1_month">1 مہینہ</string>
+    <string name="_6_months">6 ماہ</string>
+    <string name="recommended">مجوزہ</string>
+    <string name="check_for_updates">تازہ ترین معلومات کی جانچ کریں</string> <!-- Urdu (ur) -->
+    <string name="yes">جی ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="you_re_leaving_are_you_sure_you_want_nto_quit_app">آپ جا رہے ہیں۔ کیا آپ واقعی ایپ چھوڑنا چاہتے ہیں؟</string>
+    <string name="quit_app">ایپ چھوڑیں؟</string>
+    <string name="enter_name">نام درج کریں</string>
+    <string name="enter_number">نمبر درج کریں</string>
+
+    <string name="seconds">10 سیکنڈ</string>
+
+
+    <!-- Urdu -->
+    <string name="apply">لاگو کریں</string>
+    <string name="flip">پلٹائیں</string>
+    <string name="end">اختتام</string>
+
+    <string name="_10_seconds">10 سیکنڈ</string>
+    <string name="_30_seconds">30 سیکنڈ</string>
+    <string name="_1_minute">1 منٹ</string>
+    <string name="_5_minutes">5 منٹ</string>
+    <string name="please">براہ کرم انتظار کریں</string>
+    <string name="full_ad">مکمل اشتہار لوڈ ہونے والا ہے</string>
+    <string name="reward_ad">انعامی اشتہار</string>
+    <string name="reward">انعام باقی وقت:</string>
+    <string name="get_prem">پریمیم رسائی حاصل کریں</string>
+    <string name="upgrade_now">ابھی اپ گریڈ کریں</string>
+    <string name="no_internet">انٹرنیٹ کنکشن موجود نہیں ہے</string>
+    <string name="try_again">دوبارہ کوشش کریں</string>
+
+</resources>

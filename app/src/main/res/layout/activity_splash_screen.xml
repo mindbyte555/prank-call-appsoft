@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splashContainer"
+    android:background="@drawable/ic_splash"
+    tools:context="com.example.baseapp.SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/ic_mainfake"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@+id/mainprank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintHeight_percent="0.08"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/monseratt_med"
+        android:text="@string/splash_sechead"
+        android:textColor="@color/splash_sec"
+        android:textSize="@dimen/_18sdp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/mainhead"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.1"
+        android:fontFamily="@font/monseratt_bold"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/splash_mainhead"
+        android:textColor="@color/theme_head"
+        android:textSize="@dimen/_22sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.09"
+        android:fontFamily="@font/monserrat_regular"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/splash_lasthead"
+        android:textColor="@color/seeall"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainhead" />
+
+    <ImageView
+        android:id="@+id/mainprank"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/ic_prankmain"
+        app:layout_constraintBottom_toTopOf="@+id/permissionbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/permissionbtn"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:backgroundTint="@color/splash_btn"
+        android:text="@string/splashbtn_txt"
+        android:textAllCaps="false"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_13sdp"
+        app:cornerRadius="@dimen/_30sdp"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:layout_constraintBottom_toTopOf="@+id/privacy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/animation_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_20sdp"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:layout_marginBottom="@dimen/_40sdp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:lottie_autoPlay="false"-->
+<!--        app:lottie_loop="false"-->
+<!--        app:lottie_rawRes="@raw/splashload" />-->
+    <ProgressBar
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20sdp"
+        android:scaleType="fitXY"
+        android:indeterminate="true"
+        android:progress="20"
+        android:layout_marginEnd="@dimen/_32sdp"
+        android:layout_marginStart="@dimen/_32sdp"
+        android:indeterminateTint="@color/purple"
+        android:progressTint="@color/white"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginBottom="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+ />
+
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/monserrat_regular"
+        android:text="@string/priv"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="visible"
+        android:textColor="@color/seeall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/monserrat_regular"
+        android:text="Version:1.13"
+        android:visibility="gone"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

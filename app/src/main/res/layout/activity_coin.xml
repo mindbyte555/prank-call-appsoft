@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.example.baseapp.coin.CoinActivity">
+
+    <ImageView
+        android:id="@+id/coinbackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/ic_back_black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monseratt_bold"
+        android:text="@string/credit"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:textColor="@color/theme_head"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/coinbackbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/coinbackbtn"
+        app:layout_constraintTop_toTopOf="@id/coinbackbtn" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coinlay"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:background="@drawable/coin_bg"
+        android:backgroundTint="@color/tab_selected"
+        android:clickable="true"
+        android:elevation="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:outlineAmbientShadowColor="@color/tab_selected"
+        android:outlineSpotShadowColor="@color/tab_selected"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9">
+
+        <TextView
+            android:id="@+id/cointxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_extrabold"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/coinsimg"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/coinsimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:src="@drawable/coin_img"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/cointxt"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/imgholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        >
+
+        <ImageView
+            android:id="@+id/celebimg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_140sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/ic_celebrate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/celebfirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/monserrat_semibold"
+            android:text="@string/today_rew"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            app:layout_constraintBottom_toTopOf="@+id/celebsec"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/celebsec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/monseratt_bold"
+            android:text="@string/claim_now"
+            android:textColor="@color/tab_selected"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintBottom_toTopOf="@+id/celecblast"
+            app:layout_constraintEnd_toEndOf="@+id/celebfirst"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/celebfirst"
+            app:layout_constraintTop_toBottomOf="@+id/celebfirst" />
+
+        <TextView
+            android:id="@+id/celecblast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:fontFamily="@font/monseratt_med"
+            android:gravity="center"
+            android:text="@string/get_free"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_9sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/celebsec" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/watchadbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgholder"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toStartOf="@+id/day2"
+            app:layout_constraintHeight_percent="0.30"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintWidth_percent="0.23">
+
+            <TextView
+                android:id="@+id/day1txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="1 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coinimg"
+                app:layout_constraintEnd_toEndOf="@+id/day1txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day1txt"
+                app:layout_constraintTop_toBottomOf="@+id/day1txt" />
+
+            <ImageView
+                android:id="@+id/coinimg"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin1" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toStartOf="@+id/day3"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/day1"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0.4"
+            app:layout_constraintWidth_percent="0.23">
+
+            <TextView
+                android:id="@+id/day2txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="1 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin2img"
+                app:layout_constraintEnd_toEndOf="@+id/day2txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day2txt"
+                app:layout_constraintTop_toBottomOf="@+id/day2txt" />
+
+            <ImageView
+                android:id="@+id/coin2img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toStartOf="@+id/day4"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintStart_toEndOf="@+id/day2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0.4"
+            app:layout_constraintWidth_percent="0.23">
+
+            <TextView
+                android:id="@+id/day3txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="2 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin3img"
+                app:layout_constraintEnd_toEndOf="@+id/day3txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day3txt"
+                app:layout_constraintTop_toBottomOf="@+id/day3txt" />
+
+            <ImageView
+                android:id="@+id/coin3img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/day3"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0.4"
+            app:layout_constraintWidth_percent="0.23">
+            <TextView
+                android:id="@+id/day4txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="2 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin4img"
+                app:layout_constraintEnd_toEndOf="@+id/day4txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day4txt"
+                app:layout_constraintTop_toBottomOf="@+id/day4txt" />
+
+            <ImageView
+                android:id="@+id/coin4img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toStartOf="@+id/day6"
+            app:layout_constraintHeight_percent="0.30"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            android:alpha="0.4"
+            app:layout_constraintTop_toBottomOf="@+id/day1"
+            app:layout_constraintWidth_percent="0.23">
+            <TextView
+                android:id="@+id/day5txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="3 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin5img"
+                app:layout_constraintEnd_toEndOf="@+id/day5txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day5txt"
+                app:layout_constraintTop_toBottomOf="@+id/day5txt" />
+
+            <ImageView
+                android:id="@+id/coin5img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toStartOf="@+id/day3"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:alpha="0.4"
+            app:layout_constraintStart_toEndOf="@+id/day5"
+            app:layout_constraintTop_toBottomOf="@+id/day2"
+            app:layout_constraintWidth_percent="0.23">
+            <TextView
+                android:id="@+id/day6txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="3 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin6img"
+                app:layout_constraintEnd_toEndOf="@+id/day6txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day6txt"
+                app:layout_constraintTop_toBottomOf="@+id/day6txt" />
+
+            <ImageView
+                android:id="@+id/coin6img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin6" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/day7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/selected_new_inapp"
+            app:layout_constraintEnd_toStartOf="@+id/prem"
+            app:layout_constraintHeight_percent="0.3"
+            android:alpha="0.4"
+            app:layout_constraintStart_toEndOf="@+id/day6"
+            app:layout_constraintTop_toBottomOf="@+id/day3"
+            app:layout_constraintWidth_percent="0.23">
+            <TextView
+                android:id="@+id/day7txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="Day 7"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/coin7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="5 Coin"
+                android:textColor="@color/coin"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintBottom_toTopOf="@+id/coin7img"
+                app:layout_constraintEnd_toEndOf="@+id/day7txt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/day7txt"
+                app:layout_constraintTop_toBottomOf="@+id/day7txt" />
+
+            <ImageView
+                android:id="@+id/coin7img"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/coin_img"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coin7" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/prem"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/buy_prembg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/day4"
+            app:layout_constraintStart_toEndOf="@+id/day7"
+            app:layout_constraintWidth_percent="0.23">
+
+            <TextView
+                android:id="@+id/premtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="@string/premuim"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp"
+                app:layout_constraintBottom_toTopOf="@+id/premunlock"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/premunlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/monserrat_semibold"
+                android:text="@string/to_unlock"
+                android:textColor="@color/unlock_coin"
+                android:textSize="@dimen/_9sdp"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/premimg"
+                app:layout_constraintEnd_toEndOf="@+id/premtxt"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/premtxt"
+                app:layout_constraintTop_toBottomOf="@+id/premtxt" />
+
+            <ImageView
+                android:id="@+id/premimg"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/ic_premmain"
+                app:layout_constraintHeight_percent="0.25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/premunlock" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/watchadbtn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/rectangle_shape"
+        android:backgroundTint="@color/unlock_btn"
+        android:clickable="true"
+        android:elevation="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:outlineAmbientShadowColor="@color/unlock_btn"
+        android:outlineSpotShadowColor="@color/unlock_btn"
+        android:layout_marginBottom="@dimen/_40sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+      >
+
+        <TextView
+            android:id="@+id/rewardbtn"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/monserrat_semibold"
+            android:gravity="center"
+            android:text="@string/watch_sec"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/speaker"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:src="@drawable/ic_speak"
+            android:layout_marginEnd="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/rewardbtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
