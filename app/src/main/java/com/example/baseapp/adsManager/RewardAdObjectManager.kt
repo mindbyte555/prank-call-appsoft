@@ -112,6 +112,7 @@ object RewardAdObjectManager {
                 rewardedAdRequest,
                 object : RewardedAdLoadCallback() {
                     override fun onAdLoaded(ad: RewardedAd) {
+                        ad.setImmersiveMode(true)
                         mRewardedAd = ad
                         isAdDecided = true
                         Log.e("TestTag", "Rewarded ad Loaded.")

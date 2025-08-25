@@ -115,6 +115,7 @@ class AppLifecycleCallbacks : Application.ActivityLifecycleCallbacks {
         val loadCallback: AppOpenAd.AppOpenAdLoadCallback =
             object : AppOpenAd.AppOpenAdLoadCallback() {
                 override fun onAdLoaded(ad: AppOpenAd) {
+                    ad.setImmersiveMode(true)
                     Log.e("TESTTAG", "app open onAdLoaded: $ad")
                     openAd = ad
                     isAdLoaded = true // Set the flag to indicate that the ad is loaded

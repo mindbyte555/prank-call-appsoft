@@ -281,6 +281,7 @@ class AdsManager(val context: Context) {
                     adRequest,
                     object : InterstitialAdLoadCallback() {
                         override fun onAdLoaded(ad: InterstitialAd) {
+                            ad.setImmersiveMode(true)
                             mInterstitialAd = ad
                             isAdLoading = false
                             hasRetriedLoad = false

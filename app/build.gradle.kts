@@ -9,17 +9,19 @@ plugins {
 }
 android {
     namespace = "com.example.fakecall"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId =
             "com.fakecall.prankfriend.fakechat.fakevideocall.celebrityfakecall.prankchat.fakecall"
         minSdk = 28
-        targetSdk = 34
-        versionCode = 41
-        versionName = "1.41"
+        targetSdk = 35
+        versionCode = 42
+        versionName = "1.42"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        base.archivesBaseName = "Fake_Video_&_Audio_Call" + versionName + "(AppSoftStudio)"
+        setProperty(
+            "archivesBaseName", "Fake_Call_AppSoft_V.$versionName"
+        )
 
 
     }
@@ -54,10 +56,10 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.core:core-ktx:1.16.0")
+    implementation("androidx.appcompat:appcompat:1.7.1")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation("com.google.firebase:firebase-messaging-ktx:23.4.1")
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")

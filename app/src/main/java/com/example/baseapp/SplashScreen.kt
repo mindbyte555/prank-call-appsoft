@@ -273,6 +273,7 @@ class SplashScreen : AppCompatActivity() {
         val loadCallback: AppOpenAd.AppOpenAdLoadCallback =
             object : AppOpenAd.AppOpenAdLoadCallback() {
                 override fun onAdLoaded(ad: AppOpenAd) {
+                    ad.setImmersiveMode(true)
                     Log.e("remote", "onAdLoaded:")
                     isAdLoaded = true
                     openAd = ad
@@ -323,6 +324,7 @@ class SplashScreen : AppCompatActivity() {
 //            AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT,
             object : AppOpenAd.AppOpenAdLoadCallback() {
                 override fun onAdLoaded(ad: AppOpenAd) {
+                    ad.setImmersiveMode(true)
                     Log.e("AppOpenAd", "Ad loaded from tier: $tier")
                     FirebaseCustomEvents(this@SplashScreen).createFirebaseEvents(
                         "appopen_loaded_$version",

@@ -103,6 +103,7 @@ object Load_inter
                     override fun onAdLoaded(interstitialAd: InterstitialAd) {
                         // The mInterstitialAd reference will be null until
                         // an ad is loaded.
+                        interstitialAd.setImmersiveMode(true)
                         mInterstitialAd = interstitialAd
                         isAdDecided = true
                         Log.e(logTag, "note Insterstitial Loaded.")
